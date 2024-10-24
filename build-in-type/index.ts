@@ -1,5 +1,10 @@
 // number, string, boolean, void, undefined, null
-let UserId: number;
-UserId = 121;
+let userId: number;
+let userName: string;
+let isActivated: boolean;
+
+
+
+
 
  

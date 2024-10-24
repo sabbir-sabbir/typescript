@@ -1,3 +1,4 @@
 // number, string, boolean, void, undefined, null
-var UserId;
-UserId = 121;
+var userId;
+var userName;
+var isActivated;
