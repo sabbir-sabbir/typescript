@@ -1,5 +1,3 @@
 // number, string, boolean, void, undefined, null
-let UserId: number;
+var UserId;
 UserId = 121;
-
- 
