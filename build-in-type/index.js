@@ -1,4 +1,3 @@
-var UserArray;
-var UserID;
-UserArray = ["sabbir", "Rahman"];
-console.log(UserArray[1]);
+var user;
+user = [101, "Sabbir"];
+console.log(user);
