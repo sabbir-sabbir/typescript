@@ -1,4 +1,5 @@
 let UserArray: string[];
 let UserID: number[];
 
-UserArray
+UserArray = ["sabbir", "Rahman"];
+console.log(UserArray[0]);
