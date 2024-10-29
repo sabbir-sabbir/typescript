@@ -1,4 +1,4 @@
-// number, string, boolean, void, undefined, null
-var userId;
-var userName;
-var isActivated;
+var UserArray;
+var UserID;
+UserArray = ["sabbir", "Rahman"];
+console.log(UserArray[1]);
