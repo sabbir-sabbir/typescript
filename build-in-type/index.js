@@ -1,7 +1,13 @@
-var MyData;
-(function (MyData) {
-    MyData["TheData"] = "READ_DATQ";
-    MyData["TheData2"] = "DELETE_DATQ";
-})(MyData || (MyData = {}));
+var User = /** @class */ (function () {
+    function User(userName, age) {
+        this.userName = userName;
+        this.age = age;
+    }
+    User.prototype.Display = function () {
+        console.log("Myname: ".concat(this.userName, ", MyAge: ").concat(this.age));
+    };
+    return User;
+}());
 ;
-console.log(MyData.TheData);
+var user1 = new User("Sabbir", 25);
+user1.Display();
