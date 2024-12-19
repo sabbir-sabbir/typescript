@@ -1,10 +1,7 @@
-interface Rectangle {
-    height: number,
-    width: number
-  }
-  
-  const rectangle: Rectangle = {
-    height: 20,
-    width: 10
-  };
-console.log(rectangle.height);
+const car: {name: string, year: number, color: string} = {
+    name: 'Audi',
+    year: 2020,
+    color: 'black'
+};
+
+console.log(car.name); // Audi  

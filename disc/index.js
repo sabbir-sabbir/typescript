@@ -1,6 +1,7 @@
 "use strict";
-const rectangle = {
-    height: 20,
-    width: 10
+const car = {
+    name: 'Audi',
+    year: 2020,
+    color: 'black'
 };
-console.log(rectangle.height);
+console.log(car.name);
