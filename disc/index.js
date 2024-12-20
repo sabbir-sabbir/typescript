@@ -1,7 +1,4 @@
 "use strict";
-const car = {
-    name: 'Audi',
-    year: 2020,
-    color: 'black'
-};
-console.log(car.name);
+const names = ['Alice', 'Bob', 'Charlie'];
+names.push("sabbir");
+console.log(names);

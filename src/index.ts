@@ -1,7 +1,7 @@
-const car: {name: string, year: number, color: string} = {
-    name: 'Audi',
-    year: 2020,
-    color: 'black'
-};
+class player {
+    name: string;
+    age: 25;
+    country: string;
 
-console.log(car.name); // Audi  
+    constructor(n: string, a: number, c: string)
+}
