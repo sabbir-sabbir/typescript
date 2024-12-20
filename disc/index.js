@@ -1,4 +1,5 @@
 "use strict";
-const names = ['Alice', 'Bob', 'Charlie'];
-names.push("sabbir");
-console.log(names);
+function add(a, b, c) {
+    return a + b + (c || 0);
+}
+console.log(add(5, 10));

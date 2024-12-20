@@ -1,7 +1,7 @@
-class player {
-    name: string;
-    age: 25;
-    country: string;
+// the `?` operator here marks parameter `c` as optional
+function add(a: number, b: number, c?: number) {
+    return a + b + (c || 0);
+  }
 
-    constructor(n: string, a: number, c: string)
-}
+  console.log(add(5, 10));
+  
