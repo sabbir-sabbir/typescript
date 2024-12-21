@@ -1,7 +1,3 @@
-// the `?` operator here marks parameter `c` as optional
-function add(a: number, b: number, c?: number) {
-    return a + b + (c || 0);
-  }
+let x: unknown = "sabbir";
 
-  console.log(add(5, 10));
-  
+console.log((x as string).length);
